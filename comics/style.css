@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+}
+
+.comic-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comic-container img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #222;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
